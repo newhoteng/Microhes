@@ -13,10 +13,12 @@
     <header id="header">
       <img src="logoMicroverse.jpg" alt="" id="header-img" />
       <nav id="nav-bar">
-        <a href="#features" class="nav-link">Features</a>
-        <a href="#how-it-works" class="nav-link">How it works</a>
-        <a href="#pricing" class="nav-link">Pricing</a>
-      </nav>
+        <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+    </nav>
     </header>
     <br />
     <br />
@@ -24,14 +26,9 @@
     <br />
     <br />
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input
-        type="email"
-        value=""
-        id="email"
-        placeholder="enter your email address"
-      />
-      <input type="submit" id="submit" />
-    </form>
+      <input id="email" type="email" placeholder="Enter your email address" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+      <input id="submit" type="submit" value="GET STARTED">
+  </form>
 
     <section id="features">
       <div class="grid">
