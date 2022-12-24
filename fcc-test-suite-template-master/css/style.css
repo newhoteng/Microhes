@@ -29,4 +29,9 @@
   .logo {
     width: 60vw;
   }
+
+nav {
+  position: fixed;
+  top: 0;
+}
   
