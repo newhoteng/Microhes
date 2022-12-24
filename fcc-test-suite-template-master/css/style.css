@@ -1,0 +1,21 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-bar{
+    padding: 10px;
+    
+}
+
+ a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+#header img{
+    width: 40px;
+}
